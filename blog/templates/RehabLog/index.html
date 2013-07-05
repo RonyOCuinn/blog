@@ -1,24 +1,15 @@
 {% extends 'base.html' %}
 
 
-{%block title%} Blog Archive {% endblock %}
+{%block title%} Ronan's RehabLog {% endblock %}
 
 {% block content %}
-    <h1> RehabLog Archive </h1>
     {% for post in posts %}
-    <div class="post">
-        <h2>
-            <a href="{{post.get_absolute_url}}">
-                {{post.title}}
-            </a>
-        </h2>
-        <p>{{post.description}}</p>
-        <p>
-            Posted on 
-            <time datetime="{{post.created|date:"c"}}">
-                {{post.created|date}}
-            </time>
-        </p>
+    <div class="content">
+        <h2>{{post.title}}</h2>
+        {{post.description}}<br/>
+        {{post.content}}<br>
+        <h5>Posted on {{post.created|date}} at {{post.created|time}}</h5>
     </div>
     {% endfor %}
 {% endblock %}

@@ -6,6 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^archive/', 'RehabLog.views.archive'),
     url(r'^$', 'RehabLog.views.index'),
     url(r'^(?P<slug>[\w\-]+)/$', 'RehabLog.views.post'),
 )

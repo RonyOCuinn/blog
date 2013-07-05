@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{%block title%} Blog Archive {% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+    <div class="post">
+        <h2><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
+
+        <h3>{{post.description}}</h3>
+        
+        Posted on <time datetime="{{post.created|date:"c"}}">{{post.created|date}}</time>
+        <hr>
+    </div>
+    {% endfor %}
+{% endblock %}

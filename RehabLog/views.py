@@ -14,3 +14,7 @@ def post(request, slug):
     post = get_object_or_404(Post, slug=slug)
     #Return rendered templatee
     return render(request, 'RehabLog/post.html', {'post': post})
+
+def archive(request):
+    posts = Post.objects.filter(published=True)
+    return render(request, 'RehabLog/archive.html', {'posts':posts})
