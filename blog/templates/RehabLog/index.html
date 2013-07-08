@@ -10,7 +10,9 @@
         <h3>{{post.description}}</h3>
         {{post.content}}<br>
         <div class="image">
-            <img class="peek" src="{{post.image}}" alt="a fun image" />
+            <a href="{{post.image}}" data-lightbox="testicles" title="fun">
+                <img class="peek" src="{{post.image}}" alt="a fun image" />
+            </a>
         </div>
         <h5>Posted on {{post.created|date}} at {{post.created|time}}</h5>
     </div>
