@@ -32,3 +32,7 @@ h1{
     text-align: center;
     font-size: 48px;
 }
+
+div.image{
+    height: 100px;
+}

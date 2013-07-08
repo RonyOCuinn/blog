@@ -32,3 +32,13 @@ h1{
     text-align: center;
     font-size: 48px;
 }
+
+.image{
+    width: auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+.image img{
+    width:100%;
+}
