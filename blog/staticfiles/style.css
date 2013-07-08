@@ -17,6 +17,18 @@ div.content{
     margin: 50px auto;
 }
 
-header{
+div.header{
+    background-color: #B6B6B6;
+    height: 100px;
+    padding: 1px;
+    border-bottom: 1px solid #fbfbfb;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Numans', sans-serif;
+}
+
+h1{
     text-align: center;
+    font-size: 48px;
 }
