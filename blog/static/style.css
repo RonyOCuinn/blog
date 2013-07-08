@@ -9,10 +9,26 @@ body{
 }
 
 div.content{
-    border: 10px solid #fbfbfb;
+    border: 1px solid #fbfbfb;
     background-color: #B6B6B6;
     max-width: 640px;
     width: 96%;
     padding: 2%;
-    margin: 28px auto;
+    margin: 50px auto;
+}
+
+div.header{
+    background-color: #B6B6B6;
+    height: 100px;
+    padding: 1px;
+    border-bottom: 1px solid #fbfbfb;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Numans', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
 }
