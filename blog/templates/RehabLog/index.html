@@ -8,7 +8,7 @@
     <div class="content">
         <h2>{{post.title}}</h2>
         <h3>{{post.description}}</h3>
-        <pre>{{post.content}}</pre><br>
+        {{post.content|linebreaks}}<br>
         <div class="image">
             <a href="{{post.image}}" data-lightbox="{{post.description}}" title="fun">
                 <img class="peek" src="{{post.image}}" alt="a fun image" />
