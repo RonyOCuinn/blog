@@ -28,10 +28,10 @@ div.sidebar{
     position: fixed;
     background-color: #B6B6B6;
     margin: 0px 0px 0px 20px;
-    background-image: url('images/sidebarbot.png');
     border-left: 1px solid #fbfbfb;
     border-bottom: 1px solid #fbfbfb;
     border-right: 1px solid #fbfbfb;
+    overflow: hidden;
 }
 
 div.topSB{
