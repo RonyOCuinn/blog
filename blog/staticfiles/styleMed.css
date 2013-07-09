@@ -1,6 +1,6 @@
 body{
-    background: #231F20 url('images/medBG.jpg') no-repeat;
-    background-position: 900px 425px;
+    background: #231F20 url('images/sidebg.png') no-repeat;
+    background-position: 1125px 100%;
     background-attachment: fixed; 
     width: 100%;
     display: table;
@@ -9,4 +9,13 @@ body{
     font-size: 14px;
     line-height: 28px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.content{
+    border: 1px solid #fbfbfb;
+    background-color: #B6B6B6;
+    width: 900px;
+    padding: 30px;
+    margin: 50px 150px;
+    float: left;
 }
