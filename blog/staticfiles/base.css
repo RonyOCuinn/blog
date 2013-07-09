@@ -1,10 +1,7 @@
 div.content{
-    border: 1px solid #fbfbfb;
-    background-color: #B6B6B6;
-    width: 900px;
-    padding: 30px;
-    margin: 50px 150px;
-    float: left;
+    background: url('images/contbg.png');
+    box-shadow: 10px 10px 5px #888;
+    border-radius: 15px;
 }
 
 div.sidebar{
@@ -33,14 +30,14 @@ div.topSB{
 }
 
 div.header{
-    background-color: #B6B6B6;
+    background: url('images/contbg.png');
     height: 100px;
     padding: 1px;
     border-bottom: 1px solid #fbfbfb;
 }
 
 h1, h2, h3, h4{
-    font-family: 'Numans', sans-serif;
+    font-family: 'DinComp-Medium', sans-serif;
 }
 
 h1{
