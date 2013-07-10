@@ -55,21 +55,22 @@ div.nav{
     border-radius: 15px;
 }
 
-div.nav a{
+a{
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    color: #fafafa;
 }
 
-div.nav a:hover{
+a:hover{
+    color: #fafafa;
+}
+
+a[href="mailto:ronan@rehabstudio.com"]{
     color: #111;
 }
 
-div.nav a[href="mailto:ronan@rehabstudio.com"]{
-    color: #111;
-}
-
-div.nav a:visited{
+a:visited{
     color: #111;
 }
 
