@@ -1,7 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Droid Serif', serif;
+}
+
 div.content{
     background: url('images/contbg.png');
     box-shadow: 10px 10px 5px #888;
     border-radius: 15px;
+    font-size:18px;
 }
 
 div.sidebar{
@@ -34,11 +42,37 @@ div.header{
     height: 100px;
     padding: 1px;
     border-bottom: 1px solid #fbfbfb;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-h1, h2, h3, h4{
-    font-family: 'DinComp-Medium', sans-serif;
+div.nav{
+    width: 97px;
+    float: left;
+    position: fixed;
+    margin: 70px 0px 0px 20px;
+    background: url('images/contbg.png');
+    border: 1px solid #fbfbfb;
+    border-radius: 15px;
 }
+
+div.nav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div.nav a:hover{
+    color: #111;
+}
+
+div.nav a[href="mailto:ronan@rehabstudio.com"]{
+    color: #111;
+}
+
+div.nav a:visited{
+    color: #111;
+}
+
 
 h1{
     text-align: center;
