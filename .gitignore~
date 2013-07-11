@@ -1,3 +1,9 @@
 venv
 *.pyc
-blog.db
+*.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
